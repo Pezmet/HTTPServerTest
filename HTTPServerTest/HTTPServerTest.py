@@ -92,7 +92,7 @@ def run(server_class=HTTPServer, handler_class=S, port=80):
     print 'Started HTTP Test Server@localhost:80'
     httpd.serve_forever()
 
-
+#Will need refactor
 global nr_pipe_canceled, nr_pipe_restart, nr_pipe_killed, nr_pipe_success, nr_pipe_error, nr_job_canceled, nr_job_restarting, nr_job_killed, nr_job_success, nr_job_error
 nr_pipe_canceled = 0
 nr_pipe_restarting = 0
