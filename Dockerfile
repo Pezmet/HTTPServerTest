@@ -12,4 +12,4 @@ RUN pip3 --no-cache-dir install -r requirements.txt
 EXPOSE 80
 
 ENTRYPOINT ["python3"]
-CMD ["test_http_server.py"]
+CMD ["http_server.py"]
